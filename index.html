@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, inital-scale=1.0" />
+    <title>Rachel Hoang Porfolio Site</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.css"
+      integrity="sha512-3icgkoIO5qm2D4bGSUkPqeQ96LS8+ukJC7Eqhl1H5B2OJMEnFqLmNDxXVmtV/eq5M65tTDkUYS/Q0P4gvZv+yA=="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo"><img src="img/logo.png" alt="" /></div>
+
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#experiences" class="nav__link">Experiences</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">Projects</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Rachel Hoang</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        SOFTWARE DEVELOPER
+      </p>
+      <img src="img/me.jpg" alt="a picture of me" class="intro__img" />
+    </section>
+
+    <!-- Experiences -->
+    <section class="my-experiences" id="experiences">
+      <h2 class="section__title section__title--experiences">Experiences</h2>
+      <div class="experiences">
+        <div class="experience">
+          <h3>Chatbot Developer Intern</h3>
+          <h4 class="non-margin">CGS Infotech Solutions – Wilmington, DE</h4>
+          <h5>Feb 1 - May 1, 2021</h5>
+          <p>
+            Successfully utilized Google Dialogflow machine learning platform to
+            create text based chatbots that helped reduce call volume to hotel
+            front desk.<br />Task: retrieve information from given data, map the
+            information into entities, arrange the flow of conversations, design
+            the message format using JSON, analyze chat histories and user’s
+            feedback to improve chatbot’s responsiveness.
+            <a
+              class="demo-link"
+              href="https://www.rodewayinnwilmington.com/index.html"
+              target="_blank"
+              >View.</a
+            >
+          </p>
+        </div>
+        <!-- / experience -->
+
+        <div class="experience">
+          <h3>Teaching Assistant</h3>
+          <h4 class="non-margin">
+            College of Engineering, The University of Texas at Arlington
+          </h4>
+          <h5>Aug 26 - Dec 17, 2020</h5>
+          <p>
+            Assisted students in a class of 100 individually with course
+            material in engineering math and MATLAB programming via video calls
+            and emails. Graded weekly assignments by evaluating written work and
+            debugging MATLAB code.
+          </p>
+        </div>
+        <!-- / experience -->
+      </div>
+      <!-- /experiences -->
+
+      <a href="#work" class="btn">My Work</a>
+      <a
+        href="https://drive.google.com/file/d/1y-KfNGNLcFti51mBnRnQybdhjov8PiEB/view?usp=sharing"
+        target="_blank"
+        class="btn"
+        >Resume</a
+      >
+    </section>
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Software Developer based out of DFW
+      </p>
+
+      <div class="about-me__body">
+        <h3>EDUCATION</h3>
+        <h4 class="non-margin">
+          Bachelor of Science in Software Engineering &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; GPA: 3.96</h4>
+        </h4>
+        <i class="non-margin">
+          The University of Texas at Arlington &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Graduation: Dec 2021
+        </i>
+        <p>
+          Awards: Honor Transfer and Phi Theta Kappa Scholarship Fall 2019, Dean’s List every semester (GPA >3.75)<br>
+          Coursework in Data Structures & Algorithms (C), Object Oriented Programming (C++), Software Engineering Fundamentals (Java), Operating Systems (C), Database (SQL), Software Testing, and Project Management.
+        </p>
+        <h3>SKILLS</h3>
+        <p>
+          Programming Languages: Java, C/C++, MATLAB.<br>
+          Web Technology: HTML5, CSS, Bootstrap, MySQL, PHP, JavaScript.<br>
+          Industry knowledge: Data Structures & Algorithm, Object Oriented Software Design, Agile Methodology, Software Development Life Cycle, Relational Database, Mobile App Development, Web Development, Conversational AI.<br>
+          Tools: GitHub, Eclipse IDE, Android Studio, Visual Studio Code, Oracle VM Virtual Box, Junit, Google DialogFlow.<br>
+          OS: Linux, Windows.<br>
+          Other: Microsoft Outlook, Excel, PowerPoint, and Word. Problem Solving, Analytical Thinking, Teamwork, Time Management, Multitasking, Mentoring, Leadership.<br>
+
+        </p>
+      </div>
+
+      <img
+        src="img/whoiam.jpg"
+        alt="another picture of me"
+        class="about-me__img"
+      />
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My Work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        Projects that I have done
+      </p>
+
+      <div class="porfolio">
+        <!-- Porfolio item 01-->
+        <a href="#" class="porfolio__item">
+          <img src="img/porfolio-01.jpg" alt="" class="porfolio__img" />
+        </a>
+        <!-- Porfolio item 02-->
+        <a href="#" class="porfolio__item">
+          <img src="img/porfolio-02.jpg" alt="" class="porfolio__img" />
+        </a>
+        <!-- Porfolio item 03-->
+        <a href="#" class="porfolio__item">
+          <img src="img/porfolio-03.jpg" alt="" class="porfolio__img" />
+        </a>
+        <!-- Porfolio item 04-->
+        <a href="#" class="porfolio__item">
+          <img src="img/porfolio-04.jpg" alt="" class="porfolio__img" />
+        </a>
+        <!-- Porfolio item 05-->
+        <a href="#" class="porfolio__item">
+          <img src="img/porfolio-05.jpg" alt="" class="porfolio__img" />
+        </a>
+        <!-- Porfolio item 06-->
+        <a href="#" class="porfolio__item">
+          <img src="img/porfolio-06.jpg" alt="" class="porfolio__img" />
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="mailto:rachel.thng@outlook.com" class="footer-link"
+        >rachel.thng@outlook.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://github.com/tuyen788"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/tuyen-hoang-th788/"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/tuyen-hoang-th788/"
+            target="_blank"
+          >
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/tuyen-hoang-th788/"
+            target="_blank"
+          >
+            <i class="fab fa-facebook-square"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
