@@ -156,6 +156,7 @@ header {
 .nav {
   position: fixed;
   background: var(--clr-dark);
+  opacity: 95%;
   color: var(--clr-light);
   top: 0;
   bottom: 0;
@@ -399,6 +400,7 @@ header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+  align-items: center;
 }
 
 .porfolio__item {
@@ -515,4 +517,8 @@ header {
 
 .social-list__link {
   padding: 0.5em;
+}
+
+.bigger {
+  font-size: var(--fs-h3);
 }

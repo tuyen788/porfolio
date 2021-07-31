@@ -21,7 +21,7 @@ const btnsOpenModal = document.querySelectorAll(".porfolio__item");
 const openModal = function (title, date, content) {
   modal.querySelector("h2").textContent = title;
   modal.querySelector("h3").textContent = date;
-  modal.querySelector("p").textContent = content;
+  modal.querySelector("p").innerHTML = content;
   modal.classList.remove("hidden");
   overlay.classList.remove("hidden");
 };
@@ -33,15 +33,15 @@ const closeModal = function () {
 
 const projectDesc = {
   titles: [
-    "NuLand Inc Website",
+    // "NuLand Inc Website",
     "Porfolio",
     "WatchBuddy",
     "Pig Game",
     "CarePal",
-    "My Shell",
+    "Guess My Number",
   ],
   dates: [
-    "In progress",
+    // "In progress",
     "July 2021",
     "June 2021 - August 2021",
     "June 2021",
@@ -49,12 +49,12 @@ const projectDesc = {
     "September 2020",
   ],
   contents: [
-    "NuLand Inc Website",
-    "Porfolio",
-    "Manage (scrum master) a team of 5 to design a web app that allows user registration, communication by transferring data to and from MySQL database using PHP programming to interact with front end and execute queries.",
-    "Pig Game",
-    "Led a team of 4 to design an Android app that allows users to keep track of vital signs, medications, diet, set alarm to take medications on their personal accounts. Implemented Waterfall methodology to fulfill pre-defined requirements.",
-    "Developed a text-based shell utility that performs the functionalities of a directory for Unix: display directories with file details, navigate between directories, and run, copy, delete, or sort files.",
+    // "NuLand Inc Website",
+    "Design and develop my own porfolio site using HTML, CSS3, and JavaScript.",
+    "Full Stack Developer: HTML, CSS, Bootstrap, SQL, PHP, AWS.<br/>Manage (scrum master) a team of 5 to design a web app that allows user registration, communication by transferring data to and from MySQL database using PHP programming to interact with front end and execute queries. Successfully host the website on AWS EC2.",
+    "Designed and develop a dice game using HTML, CSS3, and JavaScript.",
+    "Full Stack Developer: Java, Firebase.<br/>Led a team of 4 to design an Android app that allows users to keep track of vital signs, medications, diet, set alarm to take medications on their personal accounts. Implemented Waterfall methodology to fulfill pre-defined requirements.",
+    "Designed and develop a number guessing game using HTML, CSS3, and JavaScript.",
   ],
 };
 
