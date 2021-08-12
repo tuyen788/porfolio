@@ -34,24 +34,24 @@ const closeModal = function () {
 const projectDesc = {
   titles: [
     // "NuLand Inc Website",
-    "Porfolio",
     "WatchBuddy",
+    "Portfolio",
     "Pig Game",
     "CarePal",
     "Guess My Number",
   ],
   dates: [
     // "In progress",
+    "August 2021",
     "July 2021",
-    "June 2021 - August 2021",
     "June 2021",
     "December 2020",
     "September 2020",
   ],
   contents: [
     // "NuLand Inc Website",
-    "Design and develop my own porfolio site using HTML, CSS3, and JavaScript.",
     "Full Stack Developer: HTML, CSS, Bootstrap, SQL, PHP, AWS.<br/>Manage (scrum master) a team of 5 to design a web app that allows user registration, communication by transferring data to and from MySQL database using PHP programming to interact with front end and execute queries. Successfully host the website on AWS EC2.",
+    "Design and develop my own portfolio site using HTML, CSS3, and JavaScript.",
     'Designed and develop a dice game using HTML, CSS3, and JavaScript. <a href="https://tuyen788.github.io/pig-game/" class="demo-link" target="_blank">Play.</a>',
     "Full Stack Developer: Java, Firebase.<br/>Led a team of 4 to design an Android app that allows users to keep track of vital signs, medications, diet, set alarm to take medications on their personal accounts. Implemented Waterfall methodology to fulfill pre-defined requirements.",
     'Designed and develop a number guessing game using HTML, CSS3, and JavaScript. <a href="https://tuyen788.github.io/guess-my-number/" class="demo-link" target="_blank">Play.</a>',
