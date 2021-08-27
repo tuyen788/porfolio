@@ -33,7 +33,7 @@ const closeModal = function () {
 
 const projectDesc = {
   titles: [
-    // "NuLand Inc Website",
+    "NuLand Inc Website",
     "WatchBuddy",
     "Portfolio",
     "Pig Game",
@@ -41,7 +41,7 @@ const projectDesc = {
     "Guess My Number",
   ],
   dates: [
-    // "In progress",
+    "In progress",
     "August 2021",
     "July 2021",
     "June 2021",
@@ -49,8 +49,8 @@ const projectDesc = {
     "September 2020",
   ],
   contents: [
-    // "NuLand Inc Website",
-    "Full Stack Developer: HTML, CSS, Bootstrap, SQL, PHP, AWS.<br/>Manage (scrum master) a team of 5 to design a web app that allows user registration, communication by transferring data to and from MySQL database using PHP programming to interact with front end and execute queries. Successfully host the website on AWS EC2.",
+    "Frontend Developer: React, CSS.<br/>Interact with client representative to understand the business requirements. Design and implement responsive web content using React framework and CSS styling.",
+    "Full Stack Developer: HTML, CSS, Bootstrap, SQL, PHP, AWS.<br/>Managed (scrum master) a team of 5 to design a web app that allows user registration, communication by transferring data to and from MySQL database using PHP programming to interact with front end and execute queries. Successfully hosted the website on AWS EC2.",
     "Design and develop my own portfolio site using HTML, CSS3, and JavaScript.",
     'Designed and develop a dice game using HTML, CSS3, and JavaScript. <a href="https://tuyen788.github.io/pig-game/" class="demo-link" target="_blank">Play.</a>',
     "Full Stack Developer: Java, Firebase.<br/>Led a team of 4 to design an Android app that allows users to keep track of vital signs, medications, diet, set alarm to take medications on their personal accounts. Implemented Waterfall methodology to fulfill pre-defined requirements.",
