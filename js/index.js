@@ -34,16 +34,16 @@ const closeModal = function () {
 const projectDesc = {
   titles: [
     "NuLand Inc Website",
-    "Portfolio",
     "WatchBuddy",
+    "Portfolio",
     "Pig Game",
     "CarePal",
     "Guess My Number",
   ],
   dates: [
     "September 2021",
+    "August 2021",
     "July 2021",
-    "June 2021 - August 2021",
     "June 2021",
     "December 2020",
     "September 2020",
